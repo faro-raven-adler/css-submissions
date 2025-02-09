@@ -1,1 +1,1 @@
-# css-submissions
+# css-assignments

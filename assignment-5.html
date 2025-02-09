@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="./css/assignment_5_styles.css" />
+
+    <title>Assignment 5</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Navigation-->
+      <header>
+        <nav>
+          <div id="logo">
+            <img src="./assets/images/wppusher-logo.png" alt="WP Logo" />
+          </div>
+          <div class="nav-items">
+            <a href="#" class="nav-item">Download</a>
+            <a href="#" class="nav-item">Learn More</a>
+            <a href="#" class="nav-item">Pricing</a>
+            <a href="#" class="nav-item">Help</a>
+            <a href="#" class="nav-item" id="log-on">Account</a>
+          </div>
+        </nav>
+        <hr />
+      </header>
+
+      <!--Checkout -->
+      <main>
+        <form action="#" method="post">
+          <!--Form Header-->
+          <div class="form-header-container">
+            <h1 id="form-header">Checkout</h1>
+            <hr class="form-hr" />
+          </div>
+          <!--Personal Information-->
+          <div class="checkout-container">
+            <!--Form Header Component-->
+            <div class="form-sub-header-container">
+              <div class="header-number"><h3>1</h3></div>
+              <div class="form-header">Your Basic Information</div>
+            </div>
+            <!--Form inputs-->
+            <div class="personal-info">
+              <div class="form-input-container">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="Jane"
+                />
+              </div>
+              <div class="form-input-container">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="Doe"
+                />
+              </div>
+            </div>
+            <div class="form-input-container">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="janedoe@example.com"
+              />
+            </div>
+            <hr class="form-hr" />
+            <!--Payment Information-->
+            <div class="payment-info-container">
+              <!--Form Header Component-->
+              <div class="form-sub-header-container">
+                <div class="header-number"><h3>2</h3></div>
+                <div class="form-header">Your Payment Information</div>
+              </div>
+              <!--Credit Card Component-->
+              <div class="credit-card-container">
+                <div class="label-container">
+                  <label for="card-number" id="cc-label">Credit Card</label>
+                </div>
+                <div class="card-details-container">
+                  <input
+                    type="text"
+                    placeholder="Card Number"
+                    id="card-number"
+                    name="card-number"
+                    class="cc-input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="MM / YY"
+                    class="date-input cc-input"
+                    id="date-cc"
+                    name="date-cc"
+                  />
+                  <input
+                    type="text"
+                    placeholder="CVC"
+                    class="cvc-input cc-input"
+                    id="cvc"
+                    name="cvc"
+                  />
+                </div>
+              </div>
+            </div>
+            <hr class="form-hr" />
+            <button type="submit">Buy WP Pusher</button>
+            <div class="help-component">
+                <div class="help-sub">
+                    <img src="./assets/icons/question-icon.png" alt="question icon">
+                    <p><b>Need any help?</b> Don't hesitate to contact support!</p>
+                </div>
+                <div id="stripe-logo">
+                    <img src="./assets/images/powered_by_stripe.png" alt="Stripe Logo">
+                </div>
+            </div>
+            
+            
+          </div>
+         
+        </form>
+        <!--Form Features-->
+        <aside>
+            <h4>Freelancer</h4>
+            <div class="price-checkout-container">
+                <p id="price"><span><sup>$</sup></span>99</p>
+                <p id="frequency">/year</p>
+            </div>
+            <p id="billing-frequency">Automatically renews after 1 year</p>
+            <!--Product Feature Component-->
+    <ul class="product-feature-container">
+        <li class="product-feature">Use on <b>5</b> client sites</li>
+        <li class="product-feature">Private repositories</li>
+        <li class="product-feature">Email Support</li>
+    </ul>
+    <div id="product-alt">
+        <p>Need <b>20</b> sites?</p>
+        <p>Switch to the <i>Agency</i> plan</p>
+    </div>
+    <hr>
+    <div class="feedback">
+        <p class="user-qoute">FTP is horrible to deal with. <b>WP Pusher</b> solves that issue, and the customer support is awesome!</p>
+        <div class="user">
+            <img src="./assets/images/user-img.png" alt="user-profile-image">
+            <p class="user-name">Kirk Beard</p>
+        </div>
+    </div>
+        </aside>
+      </main>
+      
+    </div>
+  </body>
+</html>
